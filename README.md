@@ -1,41 +1,41 @@
-# AutoOutline 文档网站
+# AutoOutline Documentation
 
-这是 AutoOutline 的文档网站，使用 MkDocs 构建并部署在 GitHub Pages 上。
+This is the documentation site for AutoOutline, built with MkDocs and deployed on GitHub Pages.
 
-## 本地开发
+## Local Development
 
-要在本地运行此文档网站，请按照以下步骤操作：
+To run this documentation site locally, follow these steps:
 
-1. 克隆此仓库
+1. Clone this repository
    ```
    git clone <repository-url>
    cd <repository-name>
    ```
 
-2. 安装依赖
+2. Install dependencies
    ```
    pip install -r requirements.txt
    ```
 
-3. 本地预览
+3. Preview locally
    ```
    mkdocs serve
    ```
-   然后在浏览器中打开 http://localhost:8000
+   Then open http://localhost:8000 in your browser
 
-## 部署到 GitHub Pages
+## Deploying to GitHub Pages
 
-要将网站部署到 GitHub Pages，请运行：
+To deploy the site to GitHub Pages, run:
 
 ```
 mkdocs gh-deploy
 ```
 
-## 目录结构
+## Directory Structure
 
-- `docs/` - 所有文档的 Markdown 文件
-- `mkdocs.yml` - MkDocs 配置文件
+- `docs/` - All documentation Markdown files
+- `mkdocs.yml` - MkDocs configuration file
 
-## 贡献指南
+## Contributing
 
-如果您想贡献内容或修复，请提交 Pull Request。 
+If you wish to contribute content or fixes, please submit a Pull Request. 

@@ -1,9 +1,9 @@
-site_name: AutoOutline 指南
-site_description: AutoOutline详细使用指南
-site_author: 作者
+site_name: AutoOutline Guide
+site_description: Detailed Guide for AutoOutline
+site_author: Author
 theme:
   name: material
-  language: zh
+  language: en
   features:
     - navigation.tabs
     - navigation.sections
@@ -16,13 +16,13 @@ theme:
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
-        name: 切换到深色模式
+        name: Switch to dark mode
     - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/toggle-switch
-        name: 切换到浅色模式
+        name: Switch to light mode
 
 markdown_extensions:
   - admonition
@@ -34,5 +34,4 @@ plugins:
   - search
 
 nav:
-  - 首页: index.md
-  - 指南: 'AutoOutline Guide.md'
+  - Guide: 'index.md'
