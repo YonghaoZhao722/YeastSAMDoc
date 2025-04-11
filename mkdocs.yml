@@ -4,6 +4,8 @@ site_author: Author
 theme:
   name: material
   language: en
+  logo: assets/images/favicon-32x32.png
+  favicon: assets/images/favicon-16x16.png
   features:
     - navigation.tabs
     - navigation.sections
