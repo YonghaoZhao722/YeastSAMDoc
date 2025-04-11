@@ -1,0 +1,27 @@
+/* 增大导航栏logo尺寸 */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    width: 40px;  /* 原始大小大约是24px */
+    height: auto;
+}
+
+/* 确保移动设备上logo也能显示得更大 */
+@media screen and (max-width: 76.1875em) {
+    .md-header__button.md-logo img,
+    .md-header__button.md-logo svg {
+        width: 36px;
+        height: auto;
+    }
+}
+
+/* 调整导航栏高度以适应更大的logo */
+.md-header {
+    height: auto;
+    min-height: 56px;
+    padding: 6px 0;
+}
+
+/* 确保导航菜单项在垂直方向上居中 */
+.md-header__inner {
+    align-items: center;
+} 
