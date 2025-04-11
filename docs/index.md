@@ -51,7 +51,7 @@ Choose the following options \(summarized in the table below\):
 | Model Size          | Select `base` or `large`. Large offers higher accuracy but is computational-heavy. Base runs faster with acceptable accuracy. An M2 MacBook Air 16G can run large without issues. If you experience crashes with large, switch to base. |
 | Custom Weights Path | For large, select `l_yeast_finetuned.pt`. For base, select `b_yeast_finetuned.pt`. **Important**: Download these weights from: [Google Drive](#). These custom weights are fine-tuned for Yeast Cell DIC images, offering improved accuracy over default Micro-SAM models. |
 
-![](images/image_3.png)
+![](images/image_3.png){width=500}
 
 After setting the model size and weights, click *Compute Embeddings*\. This process takes a few seconds to complete\.  
 
@@ -63,13 +63,13 @@ Once embeddings are computed, proceed to __Automatic Segmentation Settings__, se
 
 
 
-If your options doesn’t look like this, please compute embedding first\.
+If your options doesn't look like this, please compute embedding first\.
 
 These settings are optimized for our custom weights \(*l\_yeast\_finetuned\.pt* or *b\_yeast\_finetuned\.pt*\)\. If you skip loading custom weights, Napari will download the default Micro\-SAM model files, which may cause a few minutes of unresponsiveness\. To avoid this, always use the provided custom weights\.
 
 For steps beyond these AutoOutline\-specific operations, refer to this tutorial video: [https://www\.youtube\.com/watch?v=9xjJBg\_Bfuc](https://www\.youtube\.com/watch?v=9xjJBg\_Bfuc) \(Annotator 2D tutorial\)
 
-Once you’ve done the annotation, you can save the __commited\_objects__ layer, this is the mask file generated\. We will then use it to create outline file\.
+Once you've done the annotation, you can save the __commited\_objects__ layer, this is the mask file generated\. We will then use it to create outline file\.
 
 ## Converting Masks to FISH-Quant Outlines with Mask2Outline
 
@@ -77,13 +77,13 @@ To convert your masks into outline files compatible with FISH\-Quant, reopen Aut
 
 In the AutoOutline main window, select *Utility Tool > Mask2Outline*\. This will open a new window as shown:
 
-![](images/image_6.png)
+![](images/image_6.png){width=500}
 
 __Input__:  
 
   For *TIFF Mask,* select the mask file \(or folder, if processing multiple masks\) you generated earlier in Napari\.  
 
-  For *Metadata \(CY3 Image/Folder\)*, select a FISH image \(or folder\)\. This is required because FISH\-Quant uses metadata from the outline file to open the corresponding FISH image\. If you’re processing a folder, the program will automatically match FISH images to masks based on their filenames\.  
+  For *Metadata \(CY3 Image/Folder\)*, select a FISH image \(or folder\)\. This is required because FISH\-Quant uses metadata from the outline file to open the corresponding FISH image\. If you're processing a folder, the program will automatically match FISH images to masks based on their filenames\.  
 
   __*Note*__: If processing a folder of masks, ensure the masks were generated using __Image Series Annotator__ in Napari\. This preserves the original filenames, allowing the program to correctly match masks with their corresponding FISH images\.  
 
@@ -109,7 +109,7 @@ Load your mask and the corresponding FISH image as the background\. The program 
 
 Drag the mask over the FISH image to visually inspect any misalignment and determine the offset \(shift\) between them\.  
 
-Once you’ve identified the correct offset, click A*pply Registration*\. This will automatically start *Registration* tool and apply the offset values\.
+Once you've identified the correct offset, click A*pply Registration*\. This will automatically start *Registration* tool and apply the offset values\.
 
 **Registration for Applying Offsets**
 
