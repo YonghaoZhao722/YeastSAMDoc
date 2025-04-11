@@ -51,7 +51,7 @@ Choose the following options \(summarized in the table below\):
 | Model Size          | Select `base` or `large`. Large offers higher accuracy but is computational-heavy. Base runs faster with acceptable accuracy. An M2 MacBook Air 16G can run large without issues. If you experience crashes with large, switch to base. |
 | Custom Weights Path | For large, select `l_yeast_finetuned.pt`. For base, select `b_yeast_finetuned.pt`. **Important**: Download these weights from: [Google Drive](#). These custom weights are fine-tuned for Yeast Cell DIC images, offering improved accuracy over default Micro-SAM models. |
 
-<img src="images/image_3.png" width="300" />
+<img src="images/image_3.png" width="500" />
 
 After setting the model size and weights, click *Compute Embeddings*\. This process takes a few seconds to complete\.  
 
@@ -77,7 +77,7 @@ To convert your masks into outline files compatible with FISH\-Quant, reopen Aut
 
 In the AutoOutline main window, select *Utility Tool > Mask2Outline*\. This will open a new window as shown:
 
-<img src="images/image_6.png" width="300" />
+<img src="images/image_6.png" width="500" />
 
 __Input__:  
 
