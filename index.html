@@ -430,7 +430,7 @@ Ensure your image layer is at the bottom of the layer list. If not, drag it to a
 </tr>
 </tbody>
 </table>
-<p><img alt="" src="images/image_3.png" /></p>
+<p><img alt="" src="images/image_3.png" />{width=500}</p>
 <p>After setting the model size and weights, click <em>Compute Embeddings</em>. This process takes a few seconds to complete.  </p>
 <p>Once embeddings are computed, proceed to <strong>Automatic Segmentation Settings</strong>, set the configuration as shown, they are proved to be most accurate on the training DIC image in general.</p>
 <table>
@@ -447,17 +447,17 @@ Ensure your image layer is at the bottom of the layer list. If not, drag it to a
 </tr>
 </tbody>
 </table>
-<p>If your options doesn’t look like this, please compute embedding first.</p>
+<p>If your options doesn't look like this, please compute embedding first.</p>
 <p>These settings are optimized for our custom weights (<em>l_yeast_finetuned.pt</em> or <em>b_yeast_finetuned.pt</em>). If you skip loading custom weights, Napari will download the default Micro-SAM model files, which may cause a few minutes of unresponsiveness. To avoid this, always use the provided custom weights.</p>
 <p>For steps beyond these AutoOutline-specific operations, refer to this tutorial video: <a href="https://www.youtube.com/watch?v=9xjJBg_Bfuc">https://www.youtube.com/watch?v=9xjJBg_Bfuc</a> (Annotator 2D tutorial)</p>
-<p>Once you’ve done the annotation, you can save the <strong>commited_objects</strong> layer, this is the mask file generated. We will then use it to create outline file.</p>
+<p>Once you've done the annotation, you can save the <strong>commited_objects</strong> layer, this is the mask file generated. We will then use it to create outline file.</p>
 <h2 id="converting-masks-to-fish-quant-outlines-with-mask2outline">Converting Masks to FISH-Quant Outlines with Mask2Outline<a class="headerlink" href="#converting-masks-to-fish-quant-outlines-with-mask2outline" title="Permanent link">&para;</a></h2>
 <p>To convert your masks into outline files compatible with FISH-Quant, reopen AutoOutline and follow these steps:</p>
 <p>In the AutoOutline main window, select <em>Utility Tool &gt; Mask2Outline</em>. This will open a new window as shown:</p>
-<p><img alt="" src="images/image_6.png" /></p>
+<p><img alt="" src="images/image_6.png" />{width=500}</p>
 <p><strong>Input</strong>:  </p>
 <p>For <em>TIFF Mask,</em> select the mask file (or folder, if processing multiple masks) you generated earlier in Napari.  </p>
-<p>For <em>Metadata (CY3 Image/Folder)</em>, select a FISH image (or folder). This is required because FISH-Quant uses metadata from the outline file to open the corresponding FISH image. If you’re processing a folder, the program will automatically match FISH images to masks based on their filenames.  </p>
+<p>For <em>Metadata (CY3 Image/Folder)</em>, select a FISH image (or folder). This is required because FISH-Quant uses metadata from the outline file to open the corresponding FISH image. If you're processing a folder, the program will automatically match FISH images to masks based on their filenames.  </p>
 <p><strong><em>Note</em></strong>: If processing a folder of masks, ensure the masks were generated using <strong>Image Series Annotator</strong> in Napari. This preserves the original filenames, allowing the program to correctly match masks with their corresponding FISH images.  </p>
 <p><strong>Output</strong>:  </p>
 <p>Choose a folder where the program will save the converted outline files. These will be in a TXT format compatible with FISH-Quant.  </p>
@@ -470,7 +470,7 @@ Ensure your image layer is at the bottom of the layer list. If not, drag it to a
 <p>In AutoOutline, go to <em>Analysis Tool &gt; Shift Analyzer</em>.  </p>
 <p>Load your mask and the corresponding FISH image as the background. The program will generate an overlay of the mask on the FISH image.  </p>
 <p>Drag the mask over the FISH image to visually inspect any misalignment and determine the offset (shift) between them.  </p>
-<p>Once you’ve identified the correct offset, click A<em>pply Registration</em>. This will automatically start <em>Registration</em> tool and apply the offset values.</p>
+<p>Once you've identified the correct offset, click A<em>pply Registration</em>. This will automatically start <em>Registration</em> tool and apply the offset values.</p>
 <p><strong>Registration for Applying Offsets</strong></p>
 <p>In AutoOutline, go to <em>Utility Tool &gt; Registration</em>.  </p>
 <p>The program will generate a <em>registered mask</em> by applying the offset, aligning the mask with the FISH image.</p>
