@@ -5,7 +5,7 @@ This manual provides a step-by-step guide to installing and using AutoOutline, a
 - **Registration** - Aligning shifted images
 - **Mask2Outline** - Converting cell masks into FISH-Quant outline files
 
-For any issues, feel free to email me at sc22yz3@leeds.ac.uk
+For any issues, feel free to email me at [sc22yz3@leeds.ac.uk](mailto:sc22yz3@leeds.ac.uk)
 
 ## AutoOutline Installation and Napari Setup
 
