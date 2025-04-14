@@ -1,16 +1,11 @@
-This manual provides a step\-by\-step guide to installing and using AutoOutline, a MacOS toolbox designed to set up the analysis environment and contains 4 tools: 
+This manual provides a step-by-step guide to installing and using AutoOutline, a MacOS toolbox designed for cell analysis and FISH-Quant integration. The toolbox contains four main components:
 
-__Micro\-SAM__ __Napari__
+- **Micro-SAM Napari** - Creating masks for cells
+- **Shift Analyzer** - Quantifying shifts or drifts between DIC/Mask and FISH images
+- **Registration** - Aligning shifted images
+- **Mask2Outline** - Converting cell masks into FISH-Quant outline files
 
-__Shift Analyzer__
-
-__Registration__
-
-__Mask2Outline__
-
-for converting masks into outline files compatible with FISH\-Quant\. 
-
-For any issues, feel free to email me at sc22yz3@leeds\.ac\.uk
+For any issues, feel free to email me at sc22yz3@leeds.ac.uk
 
 ## AutoOutline Installation and Napari Setup
 
