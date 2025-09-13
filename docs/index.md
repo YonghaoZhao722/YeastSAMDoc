@@ -173,8 +173,6 @@ YeastSAM provides tools to correct misalignment between masks and FISH images, e
 
 The tool also supports processing folders, where the same offset coordinates are applied to all masks.
 
-## Acknowledgement
 
-We acknowledge the following paper for inspiring our work:
-
-Archit, A., Freckmann, L., Nair, S. et al. *Segment Anything for Microscopy*. Nat Methods 22, 579–591 (2025). https://doi.org/10.1038/s41592-024-02580-4
+## Citation
+If you are using YeastSAM for your research, please cite [our paper]().
