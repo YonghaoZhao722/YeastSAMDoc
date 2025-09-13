@@ -99,7 +99,7 @@ Once napari is open and your DIC image is loaded, configure the embedding settin
 | Setting             | Option                                                                                                                                  |
 |---------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Model Size          | Select `base` |
-| Custom Weights Path | Select `vit_b_yeast.pt`. **Important**: Download these weights from [GitHub Releases](https://github.com/YonghaoZhao722/YeastSAM/releases). These custom YeastSam weights are fine-tuned for Yeast Cell DIC images, offering improved accuracy over default µSAM models for budding yeast. |
+| Custom Weights Path | Select `vit_b_yeast.pt`. **Important**: Download these weights from [GitHub Releases](https://github.com/YonghaoZhao722/YeastSAM/releases). These custom YeastSAM weights are fine-tuned for Yeast Cell DIC images, offering improved accuracy over default µSAM models for budding yeast. |
 
 <img src="images/image_3.png" width="500" />
 
@@ -107,13 +107,7 @@ Once napari is open and your DIC image is loaded, configure the embedding settin
 
 4. Once embeddings are computed, click **Automatic Segmentation Settings**, set the configuration as shown. These settings are proven to be most accurate on the training DIC images in general.
 
-| YeastSam Settings |
-|-------------------|
-| ![YeastSam Model Settings](images/image_5.png) |
-
-If your options don't look like this, please compute embedding first.
-
-These settings are optimized for our custom YeastSam weights (*vit_b_yeast.pt*). If you skip loading custom weights, napari will download the default µSAM model files, which may cause a few minutes of unresponsiveness. To avoid this, always use the provided YeastSam weights.
+If you skip loading custom weights, napari will download the default µSAM model files, which may cause a few minutes of unresponsiveness. To avoid this, always use the provided YeastSAM weights.
 
 For steps beyond these YeastSAM-specific operations, refer to this tutorial video: [Annotator 2D tutorial](https://www.youtube.com/watch?v=9xjJBg_Bfuc)
 
