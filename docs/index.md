@@ -42,7 +42,7 @@ conda activate yeastsam
 
 ## Usage
 
-### Launch the GUI
+### **Launch the GUI**
 
 To start the YeastSAM tools launcher:
 
@@ -70,9 +70,7 @@ This section is to fix the offset between smFISH image and DIC (as masks are gen
 #### 4. Separation Module
 - **Mask Editor**: You can annotate mask images manually or with CNN & U-Net separation module. Download models at [GitHub Releases](https://github.com/YonghaoZhao722/YeastSAM/releases).
 
-## Detailed Usage Instructions
-
-### Setting Up napari for Mask Generation
+### **Setting Up napari for Mask Generation**
 
 Under *Analysis Tool*, choose *napari*. The first launch of napari may also take some time to build.
 
@@ -88,7 +86,7 @@ To start:
 
 ![napari Interface Setup](images/image_2.png)
 
-### Configuring Embedding and Segmentation Settings in napari
+#### **Configuring Embedding and Segmentation Settings in napari**
 
 Once napari is open and your DIC image is loaded, configure the embedding settings for mask generation. Follow these steps:
 
@@ -113,7 +111,7 @@ For steps beyond these YeastSAM-specific operations, refer to this tutorial vide
 
 Once you've completed the annotation, you can save the **committed_objects** layer. This is the mask file generated. We will then use it to create outline files.
 
-### Converting Masks to FISH-Quant Outlines with Mask2Outline
+### **Converting Masks to FISH-Quant-Compatible Outlines**
 
 To convert your masks into outline files compatible with FISH-Quant, reopen YeastSAM and follow these steps:
 
@@ -136,7 +134,7 @@ To convert your masks into outline files compatible with FISH-Quant, reopen Yeas
 The resulting outline files can now be used directly in FISH-Quant for further analysis.
 
 
-### Mask Editor for Mother-Bud Pair Separation
+### **Mother-Bud Pair Separation**
 
 <img src="images/image_7.png"/>
 
@@ -153,7 +151,7 @@ In addition, the **Auto Renumber Cells** button (bottom left) will reorder masks
 In our annotations, we set the *bud* to have the **01** suffix and the *mother cell* to have the **02** suffix, which facilitates [downstream data preprocessing and module model training](https://github.com/YonghaoZhao722/YeastSAM/tree/main/cell_separation).
 
 
-### Shift Analyzer and Registration (Optional)
+### **Shift Analyzer and Registration (Optional)**
 
 ![Registration Interface](images/image_8.png)
 
@@ -174,3 +172,9 @@ YeastSAM provides tools to correct misalignment between masks and FISH images, e
 2. Use this registered mask in the *Mask2Outline* tool (as described in the "Converting Masks to FISH-Quant Outlines with Mask2Outline" section) to convert it into an outline file. The resulting outline will now align perfectly with the FISH image in FISH-Quant.
 
 The tool also supports processing folders, where the same offset coordinates are applied to all masks.
+
+## Acknowledgement
+
+We acknowledge the following paper for inspiring our work:
+
+Archit, A., Freckmann, L., Nair, S. et al. *Segment Anything for Microscopy*. Nat Methods 22, 579–591 (2025). https://doi.org/10.1038/s41592-024-02580-4
