@@ -1,6 +1,7 @@
-site_name: AutoOutline Guide
-site_description: Detailed Guide for AutoOutline
-site_author: Author
+site_name: YeastSAM
+site_description: Detailed Documentation for YeastSAM
+site_author: Yonghao Zhao
+
 theme:
   name: material
   language: en
@@ -10,6 +11,7 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
+    - header.social
   palette:
     - scheme: default
       primary: indigo
@@ -24,6 +26,9 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
+repo_url: https://github.com/YonghaoZhao722/YeastSAM
+repo_name: GitHub
+
 markdown_extensions:
   - admonition
   - codehilite
@@ -33,5 +38,7 @@ markdown_extensions:
 plugins:
   - search
 
-nav:
-  - Guide: 'index.md'
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YonghaoZhao722/YeastSAM
