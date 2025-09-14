@@ -113,7 +113,7 @@ Once you've completed the annotation, you can save the **committed_objects** lay
 
 ### **Converting Masks to FISH-Quant-Compatible Outlines**
 
-To convert your masks into outline files compatible with FISH-Quant, reopen YeastSAM and follow these steps:
+To convert your masks into outline files compatible with FISH-Quant, click *Mask2Outline* and follow these steps:
 
 <img src="images/image_6.png" width="500" />
 
