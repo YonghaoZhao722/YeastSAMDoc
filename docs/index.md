@@ -99,13 +99,14 @@ Once napari is open and your DIC image is loaded, configure the embedding settin
 | Model Size          | Select `base` |
 | Custom Weights Path | Select `vit_b_yeast.pt`. **Important**: Download these weights from [GitHub Releases](https://github.com/YonghaoZhao722/YeastSAM/releases). These custom YeastSAM weights are fine-tuned for Yeast Cell DIC images, offering improved accuracy over default µSAM models for budding yeast. |
 
+If you skip loading custom weights, napari will download the default µSAM model files, which may cause a few minutes of unresponsiveness. To avoid this, always use the provided YeastSAM weights.
+
 <img src="images/image_3.png" width="500" />
 
 3. After setting the model size and weights, click *Compute Embeddings*. This process takes a few seconds to complete.
 
 4. Once embeddings are computed, click **Automatic Segmentation Settings**, set the configuration as shown. These settings are proven to be most accurate on the training DIC images in general.
 
-If you skip loading custom weights, napari will download the default µSAM model files, which may cause a few minutes of unresponsiveness. To avoid this, always use the provided YeastSAM weights.
 
 For steps beyond these YeastSAM-specific operations, refer to this tutorial video: [Annotator 2D tutorial](https://www.youtube.com/watch?v=9xjJBg_Bfuc)
 
@@ -140,7 +141,7 @@ The resulting outline files can now be used directly in FISH-Quant for further a
 
 You can use the **Mask Editor** to separate *mother-bud pairs*, either manually or automatically:
 
-- On the left *Editing Tools* panel, you can select **Select**, **Erase**, **Divide**, or **Drag**.  
+- On the left *Editing Tools* panel, you can select **Select**, **Erase**, **Divide**, or **Drag** (when zooming in).  
   You can manually use the **Divide** tool to separate mother-bud pairs. This is how we collected the data for analysis and for training the CNN and U-Net models.  
 
 - On the right panel, you can load [models](https://github.com/YonghaoZhao722/YeastSAM/releases) for automatic detection and separation:  
