@@ -53,6 +53,7 @@ python launch.py
 This will open a GUI with four main sections:
 
 <img src="images/image_0.png", width="500" />
+![launch](images/image_0.png)
 
 #### 1. Generate Masks
 - **napari**: Opens napari viewer for interactive mask generation and editing. You can load our custom weight YeastSAM for better accuracy in budding yeast.
