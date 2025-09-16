@@ -99,7 +99,7 @@ Once napari is open and your DIC image is loaded, configure the embedding settin
 | Model Size          | Select `base` |
 | Custom Weights Path | Select `vit_b_yeast.pt`. **Important**: Download these weights from [GitHub Releases](https://github.com/YonghaoZhao722/YeastSAM/releases). These custom YeastSAM weights are fine-tuned for Yeast Cell DIC images, offering improved accuracy over default µSAM models for budding yeast. |
 
-If you skip loading custom weights, napari will download the default µSAM model files, which may cause a few minutes of unresponsiveness. To avoid this, always use the provided YeastSAM weights.
+*Note:* If you skip loading custom weights, napari will download the default µSAM model files, which may cause a few minutes of unresponsiveness. To avoid this, always use the provided YeastSAM weights.
 
 <img src="images/image_3.png" width="500" />
 
