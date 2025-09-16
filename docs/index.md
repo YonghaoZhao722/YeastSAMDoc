@@ -2,7 +2,7 @@
 <!-- <div align="center">
   <img src="images/yeastsam_logo.png" alt="YeastSAM Logo" width="200"/>
 </div> -->
-YeastSAM is a model and a framework for yeast cell analysis and mask processing. It provides an intuitive GUI launcher and various tools for generating masks, image registration, and outline conversion. This manual provides a step-by-step guide to installing and using YeastSAM, a toolbox designed for cell analysis and FISH-Quant integration.
+YeastSAM is a model and a framework for yeast cell analysis and mask processing. It provides an intuitive GUI launcher and various tools for generating masks, image registration, and outline conversion. This manual provides a step-by-step guide to installing and using YeastSAM, a toolbox designed for cell analysis and FISH-Quant integration. All tools support image series processing.
 
 The pipeline contains 3 main steps:
 
@@ -52,7 +52,6 @@ python launch.py
 
 This will open a GUI with four main sections:
 
-<img src="images/image_0.png", width="500" />
 ![launch](images/image_0.png)
 
 #### 1. Generate Masks
