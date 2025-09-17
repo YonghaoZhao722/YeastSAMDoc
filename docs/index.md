@@ -122,7 +122,7 @@ To convert your masks into outline files compatible with FISH-Quant, click *Mask
 
 - For *TIFF Mask*, select the mask file (or folder, if processing multiple masks) you generated earlier in napari.
 
-- For *Metadata (CY3 Image/Folder)*, select a FISH image (or folder). This is required because FISH-Quant uses metadata from the outline file to open the corresponding FISH image. If you're processing a folder, the program will automatically match FISH images to masks based on their filenames.
+- For *Metadata (FISH Image/Folder)*, select a FISH image (or folder). This is required because FISH-Quant uses metadata from the outline file to open the corresponding FISH image. If you're processing a folder, the program will automatically match FISH images to masks based on their filenames.
 
   **Note**: If processing a folder of masks, ensure the masks were generated using **Image Series Annotator** in napari. This preserves the original filenames, allowing the program to correctly match masks with their corresponding FISH images.
 
@@ -137,7 +137,11 @@ The resulting outline files can now be used directly in FISH-Quant for further a
 
 ### **Mother-Bud Pair Separation**
 
-<img src="images/image_7.png"/>
+<video width="100%" autoplay loop muted>
+  <source src="videos/separation.mp4" type="video/mp4">
+</video>
+
+  
 
 You can use the **Mask Editor** to separate *mother-bud pairs*, either manually or automatically:
 
@@ -145,8 +149,11 @@ You can use the **Mask Editor** to separate *mother-bud pairs*, either manually 
   You can manually use the **Divide** tool to separate mother-bud pairs. This is how we collected the data for analysis and for training the CNN and U-Net models.  
 
 - On the right panel, you can load [models](https://github.com/YonghaoZhao722/YeastSAM/releases) for automatic detection and separation:  
-  - The **Classification** section detects which masks are mother-bud pairs.  
-  - The **Dividing Line Cell Separation** section separates the detected mother-bud pairs.  
+  - The **Classification** section detects which masks are mother-bud pairs.
+  
+  *Note*: You can also manually assign class **budding** or **G1** to each mask.
+  
+  - The **Dividing Line Cell Separation** section separates the detected **budding** cells.  
 
 In addition, the **Auto Renumber Cells** button (bottom left) will reorder masks based on the position of their first pixel, following the cell numbering logic used by FISH-Quant.  
 In our annotations, we set the *bud* to have the **01** suffix and the *mother cell* to have the **02** suffix, which facilitates [downstream data preprocessing and module model training](https://github.com/YonghaoZhao722/YeastSAM/tree/main/cell_separation).
