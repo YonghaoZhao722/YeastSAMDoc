@@ -151,7 +151,7 @@ You can use the **Mask Editor** to separate *mother-bud pairs*, either manually 
 - On the right panel, you can load [models](https://github.com/YonghaoZhao722/YeastSAM/releases) for automatic detection and separation:  
   - The **Classification** section detects which masks are mother-bud pairs.
   
-  *Note*: You can also manually assign class **budding** or **G1** to each mask.
+  *Note*: You can also manually assign class **budding** or **G1** to the selected mask with the **Manual Classification** panel.
   
   - The **Dividing Line Cell Separation** section separates the detected **budding** cells.  
 
