@@ -8,7 +8,7 @@ The pipeline contains 3 main steps:
 
 - **napari** - Creating masks for cells using custom weights for better yeast cell segmentation
 - **Mask2Outline** - Converting cell masks into FISH-Quant outline files
-- **Mask Editor** - Mask editing using deep learning separation module
+- **Mask Editor** - Mask editing using deep learning separation module 
 
 Optional Tools for shifting and image registration:
 
@@ -22,7 +22,7 @@ For any issues, feel free to email us at [sc22yz3@leeds.ac.uk](mailto:sc22yz3@le
 If you just want to run YeastSAM, you can refer to [µSAM](https://github.com/computational-cell-analytics/micro-sam) to install the framework. We provide custom weights for better yeast cell segmentation that can be downloaded from our [GitHub Releases](https://github.com/YonghaoZhao722/YeastSAM/releases). 
 
 The custom weights can be used with:
-napari,
+[napari](#setting-up-napari-for-mask-generation),
 [BAND](https://computational-cell-analytics.github.io/micro-sam/micro_sam.html#using-micro_sam-on-band),
 [CLI](https://computational-cell-analytics.github.io/micro-sam/micro_sam.html#using-the-command-line-interface-cli), and [QuPath](https://github.com/ksugar/qupath-extension-sam).
 
