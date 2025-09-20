@@ -183,4 +183,6 @@ The tool also supports processing folders, where the same offset coordinates are
 
 
 ## Citation
-If you are using YeastSAM for your research, please cite [our paper]().
+If you are using YeastSAM for your research, please cite [our paper](https://www.biorxiv.org/content/10.1101/2025.09.17.676679v1):
+
+Zhao, Y., Zhu, Z., Yang, S., Li, W. YeastSAM: A Deep Learning Model for Accurate Segmentation of Budding Yeast Cells. bioRxiv 2025.09.17.676679 (2025). https://doi.org/10.1101/2025.09.17.676679
