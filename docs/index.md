@@ -1,7 +1,4 @@
 # YeastSAM
-<!-- <div align="center">
-  <img src="images/yeastsam_logo.png" alt="YeastSAM Logo" width="200"/>
-</div> -->
 YeastSAM is a model and a framework for yeast cell analysis and mask processing. It provides an intuitive GUI launcher and various tools for generating masks, image registration, and outline conversion. This manual provides a step-by-step guide to installing and using YeastSAM, a toolbox designed for cell analysis and FISH-Quant integration. All tools support image series processing.
 
 The pipeline contains 3 main steps:
@@ -16,6 +13,9 @@ Optional Tools for shifting and image registration:
 - **Registration** - Aligning shifted images
 
 For any issues, feel free to email us at [sc22yz3@leeds.ac.uk](mailto:sc22yz3@leeds.ac.uk) or [Zhouyuan.Zhu@tufts.edu](mailto:Zhouyuan.Zhu@tufts.edu).
+
+## Dataset
+The dataset used for training and validation can be found at Zenodo: https://zenodo.org/records/17199688, including DIC and the masks.
 
 ## Quick Start
 
@@ -183,6 +183,6 @@ The tool also supports processing folders, where the same offset coordinates are
 
 
 ## Citation
-If you are using YeastSAM for your research, please cite [our paper](https://www.biorxiv.org/content/10.1101/2025.09.17.676679v1):
+If you are using YeastSAM or the dataset for your research, please cite [our paper](https://www.biorxiv.org/content/10.1101/2025.09.17.676679v1):
 
 Zhao, Y., Zhu, Z., Yang, S., Li, W. YeastSAM: A Deep Learning Model for Accurate Segmentation of Budding Yeast Cells. bioRxiv 2025.09.17.676679 (2025). https://doi.org/10.1101/2025.09.17.676679
