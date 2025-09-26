@@ -15,7 +15,7 @@ Optional Tools for shifting and image registration:
 For any issues, feel free to email us at [sc22yz3@leeds.ac.uk](mailto:sc22yz3@leeds.ac.uk) or [Zhouyuan.Zhu@tufts.edu](mailto:Zhouyuan.Zhu@tufts.edu).
 
 ## Dataset
-The dataset used for training and validation can be found at Zenodo: https://zenodo.org/records/17204942, including DIC and the masks.
+The dataset used for training and validation can be found at [Zenodo](https://zenodo.org/records/17204942), including DIC and the masks.
 
 ## Quick Start
 
