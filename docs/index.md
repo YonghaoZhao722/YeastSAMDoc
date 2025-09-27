@@ -34,7 +34,7 @@ Run the following commands in your terminal:
 
 ```bash
 git clone https://github.com/YonghaoZhao722/YeastSAM.git
-conda create -n yeastsam -c conda-forge -c defaults python=3.10 micro_sam
+conda env create -f environment.yml
 conda activate yeastsam
 ```
 
@@ -44,10 +44,10 @@ conda activate yeastsam
 
 ### **Launch the GUI**
 
-To start the YeastSAM tools launcher:
+To start the YeastSAM tools launcher,run this on your terminal:
 
 ```bash
-python launch.py
+yeastsam
 ```
 
 This will open a GUI with four main sections:
