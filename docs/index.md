@@ -1,5 +1,5 @@
 # YeastSAM
-YeastSAM is a model and a framework for yeast cell analysis and mask processing. It provides an intuitive GUI launcher and various tools for generating masks, image registration, and outline conversion. This manual provides a step-by-step guide to installing and using YeastSAM, a toolbox designed for cell analysis and FISH-Quant integration. All tools support image series processing.
+YeastSAM is a model and a framework for yeast cell analysis and mask processing. It provides an intuitive GUI launcher and various tools for generating masks, image registration, outline conversion, and mother-bud pair separation. This manual provides a step-by-step guide to installing and using YeastSAM, a toolbox designed for cell analysis and FISH-Quant integration. All tools support image series processing.
 
 <video width="35%" autoplay loop muted>
   <source src="videos/demo.mp4" type="video/mp4">
