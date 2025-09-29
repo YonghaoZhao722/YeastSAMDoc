@@ -38,6 +38,7 @@ Run the following commands in your terminal:
 
 ```bash
 git clone https://github.com/YonghaoZhao722/YeastSAM.git
+cd YeastSAM
 conda env create -f environment.yml
 conda activate yeastsam
 ```
