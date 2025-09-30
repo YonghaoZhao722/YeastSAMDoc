@@ -32,15 +32,21 @@ The custom weights can be used with:
 
 ## Installation
 
-### With Conda
+### With Terminal
 
-Run the following commands in your terminal:
+run the following commands in your terminal:
 
 ```bash
 git clone https://github.com/YonghaoZhao722/YeastSAM.git
 cd YeastSAM
 conda env create -f environment.yml
+pip install .
 ```
+
+### With Installer
+YeastSAM can also be installed using the installer.
+
+- MacOS: [YeastSAM.pkg](https://github.com/YonghaoZhao722/YeastSAM/releases/download/1.0.1/YeastSAM.pkg). You'll see a shortcut icon in your Applications folder.
 
 ## Usage
 
