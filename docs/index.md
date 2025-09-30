@@ -16,7 +16,9 @@ Optional Tools for shifting and image registration:
 - **Shift Analyzer** - Quantifying shifts or drifts between DIC/Mask and FISH images  
 - **Registration** - Aligning shifted images
 
-For any issues, feel free to email us at [sc22yz3@leeds.ac.uk](mailto:sc22yz3@leeds.ac.uk) or [Zhouyuan.Zhu@tufts.edu](mailto:Zhouyuan.Zhu@tufts.edu).
+For any issues, feel free to email us at [sc22yz3@leeds.ac.uk](mailto:sc22yz3@leeds.ac.uk) or [Zhouyuan.Zhu@tufts.edu](mailto:Zhouyuan.Zhu@tufts.edu). 
+
+You can also ask [Deepwiki](https://deepwiki.com/YonghaoZhao722/YeastSAM).
 
 ## Dataset
 The dataset used for training and validation can be found at [Zenodo](https://zenodo.org/records/17204942), including DIC and the masks.
@@ -31,6 +33,12 @@ The custom weights can be used with:
 [CLI](https://computational-cell-analytics.github.io/micro-sam/micro_sam.html#using-the-command-line-interface-cli), and [QuPath](https://github.com/ksugar/qupath-extension-sam).
 
 ## Installation
+
+### **Prerequisite: Conda**
+
+YeastSAM requires a [Conda](https://docs.conda.io/en/latest/) environment. If you do not already have Conda or Miniconda installed, please install one of them first:
+
+- [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html#regular-installation) or [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
 
 ### With Terminal
 
