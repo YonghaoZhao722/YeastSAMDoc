@@ -40,7 +40,7 @@ YeastSAM requires a [Conda](https://docs.conda.io/en/latest/) environment. If yo
 
 - [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html#regular-installation) or [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
 
-### With Terminal
+### 1. With Terminal
 
 run the following commands in your terminal:
 
@@ -48,10 +48,11 @@ run the following commands in your terminal:
 git clone https://github.com/YonghaoZhao722/YeastSAM.git
 cd YeastSAM
 conda env create -f environment.yml
+conda activate yeastsam
 pip install .
 ```
 
-### With Installer
+### 2. With Installer
 YeastSAM can also be installed using the installer.
 
 - MacOS: [YeastSAM.pkg](https://github.com/YonghaoZhao722/YeastSAM/releases/download/1.0.1/YeastSAM.pkg). You'll see a shortcut icon in your Applications folder.
