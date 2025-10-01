@@ -88,6 +88,8 @@ This section is to fix the offset between smFISH image and DIC (as masks are gen
 #### 4. Separation Module
 - **Mask Editor**: You can annotate mask images manually or with CNN & U-Net separation module. Download models at [GitHub Releases](https://github.com/YonghaoZhao722/YeastSAM/releases).
 
+
+ **Note**: It takes a few minutes for the first time to built the GUI, especially for **Shift Analyzer** and **Mask Editor**.
 ### **Setting Up napari for Mask Generation**
 
 Under *Analysis Tool*, choose *napari*. The first launch of napari may also take some time to build.
