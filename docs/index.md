@@ -125,7 +125,7 @@ Once napari is open and your DIC image is loaded, configure the embedding settin
 
 3. After setting the model size and weights, click *Compute Embeddings*. This process takes a few seconds to complete.
 
-4. Once embeddings are computed, click **Automatic Segmentation Settings**, set the configuration as shown. These settings are proven to be most accurate on the training DIC images in general.
+4. Once embeddings are computed, click **Automatic Segmentation**, you'll see the segmentation.
 
 
 For steps beyond these YeastSAM-specific operations, refer to this tutorial video: [Annotator 2D tutorial](https://www.youtube.com/watch?v=9xjJBg_Bfuc)
