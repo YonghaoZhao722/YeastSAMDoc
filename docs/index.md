@@ -16,7 +16,7 @@ Optional Tools for shifting and image registration:
 - **Shift Analyzer** - Quantifying shifts or drifts between DIC/Mask and FISH images  
 - **Registration** - Aligning shifted images
 
-For any issues, feel free to email us at [sc22yz3@leeds.ac.uk](mailto:sc22yz3@leeds.ac.uk) or [Zhouyuan.Zhu@tufts.edu](mailto:Zhouyuan.Zhu@tufts.edu). 
+For any issues, feel free to email us at [yonghao.zhao@cuanschutz.edu](mailto:yonghao.zhao@cuanschutz.edu) or [Zhouyuan.Zhu@tufts.edu](mailto:Zhouyuan.Zhu@tufts.edu).
 
 You can also ask [Deepwiki](https://deepwiki.com/YonghaoZhao722/YeastSAM).
 
